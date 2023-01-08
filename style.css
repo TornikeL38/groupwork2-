@@ -1,7 +1,142 @@
 *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+ul li{
+    font-size: 16px;
+    text-align: left;
+    list-style: none;
+    margin-left: 45px;
     color: white;
 }
-
+nav {
+    display: flex;
+}
+nav ul{
+    display: flex;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 27px;
+    background-color: blue;
+}
+.logo{
+    margin-right: 400px;
+    width: 115px;
+    height: 65px;
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+button{
+    margin-left: 45px;
+    border-radius: 50px;
+    padding: 10px;
+    font-weight: bold;
+}
+.top-section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    position: relative;
+    padding-top: 100px;
+    background-color: blue;
+}
+.first{
+    position: absolute;
+    top: 160px;
+    left: 300px;
+    width: 400px;
+    height: 400px;
+}
+.second{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    right: 2px;
+}
+.photo{
+    width: 100%;
+    height: 100%;
+}
+.services{
+    position: relative;
+    width: 100%;
+    height: 900px;
+}
+.services img{
+    width: 100%;
+    height: 100%;
+}
+.service-img{
+    position: absolute;
+    border-radius: 2%;
+    bottom: 80px;
+    left: 100px;
+    width: 400px;
+    height: 400px;
+    z-index: 1;
+}
+.photo-background{
+    border-radius: 2%;
+    position: absolute;
+    background-color: blue;
+    bottom: 70px;
+    left: 90px;
+    width: 400px;
+    height: 400px;
+}
+.services-text{
+    position: absolute;
+    top: 200px;
+    right: 500px;
+    width: 400px;
+    height: 700px;
+}
+.services-text h4{
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+.services-text p{
+    font-size: 16px;
+    text-align: left;
+}
+.text{
+    display: inline-block;
+}
+.pic{
+    display: inline-block;
+}
+.pic img{
+    width: 392px;
+    height: 390px;
+    position: relative;
+    top: 276px;
+    left: 303px;
+    border-radius: 5%;
+}
+.text{
+    position: relative;
+    top: 208px;
+    left: 240px;
+}
+.text h3{
+    position: relative;
+    top: -40px;
+    left: 0;
+}
+.pic2 img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -135px;
+    left: 704px;
+}
 h2{
 
    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-39) var(--unnamed-font-family-helvetica-neue);
