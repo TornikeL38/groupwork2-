@@ -2,10 +2,6 @@
     color: white;
 }
 
-body{
-    background-color: #0A22F4;
-}
-
 h2{
 
    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-39) var(--unnamed-font-family-helvetica-neue);
