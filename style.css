@@ -137,3 +137,133 @@ button{
     top: -135px;
     left: 704px;
 }
+h2{
+
+   font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-bold) var(--unnamed-font-size-32)/var(--unnamed-line-spacing-39) var(--unnamed-font-family-helvetica-neue);
+   letter-spacing: var(--unnamed-character-spacing-0);
+   color: var(--unnamed-color-ffffff);
+   text-align: left;
+   font: normal normal bold 32px/39px Helvetica Neue;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    opacity: 1;
+    left: 240px;
+    position: relative;
+
+
+}
+
+h5{
+    width: 463px;
+    height: 99px;
+    font: var(--unnamed-font-style-normal) normal var(--unnamed-font-weight-normal) var(--unnamed-font-size-16)/var(--unnamed-line-spacing-26) var(--unnamed-font-family-helveticaneueltgeow82-55rm);
+    letter-spacing: var(--unnamed-character-spacing-0);
+    color: var(--unnamed-color-ffffff);
+    text-align: left;
+    font: normal normal normal 16px/26px HelveticaNeueLTGEOW82-55Rm;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    left: 240px;
+    position: relative;
+}
+
+.img{
+    width: 463px;
+    height: 197px;
+    background-image: url(image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    left: 240px;
+    position: relative;
+}
+
+.same-icon{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 1px 1px 2px black;
+}
+
+.tel{
+    position: relative;
+    top: 90px;
+    left: 150px;
+    background-image: url(phone-call.png);
+}
+
+.mail{
+    position: relative;
+    left: 600px;
+}
+
+
+.email{
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.tel{
+
+    position: relative;
+    top: 90px;
+    left: 150px;
+    width: 70px;
+    height: 70px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.tel-text{
+    position: relative;
+    top: 50px;
+    left: 300px;
+}
+
+.mail-text{
+    position: relative;
+    left: 700px;
+    bottom: 40px;
+}
+
+.same{
+    width: 500px;
+    height: 30px;
+    border-bottom: 2px solid white;
+    position: relative;
+    left: 1200px;
+    bottom: 500px;
+}
+
+.rights {
+    position: relative;
+    left: 240px;
+    width: 209px;
+    height: 35px;
+    
+}
+
+.made {
+    position: relative;
+    left: 1345px;
+    width: 106px;
+    height: 35px;
+
+}
+
+.smartweb {
+    position: relative;
+    left: 1558px;
+    width: 121px;
+    height: 35px;
+}
+
+
+.footer1 {
+    background-color: #0A22F4;
+}
