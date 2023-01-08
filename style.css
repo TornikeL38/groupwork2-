@@ -105,3 +105,35 @@ button{
     font-size: 16px;
     text-align: left;
 }
+.text{
+    display: inline-block;
+}
+.pic{
+    display: inline-block;
+}
+.pic img{
+    width: 392px;
+    height: 390px;
+    position: relative;
+    top: 276px;
+    left: 303px;
+    border-radius: 5%;
+}
+.text{
+    position: relative;
+    top: 208px;
+    left: 240px;
+}
+.text h3{
+    position: relative;
+    top: -40px;
+    left: 0;
+}
+.pic2 img{
+    display: inline-block;
+    width: 400px;
+    height: 400px;
+    position: relative;
+    top: -135px;
+    left: 704px;
+}
